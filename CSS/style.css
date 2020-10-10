@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Raleway:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+}
+
+.logo{
+    padding-left: 20px;
+    width:102px;
+   
+}
+
+
+.nav-list{
+    font-family: 'Itim', cursive;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 52%;
+
+
+}
+.nav-list li a{
+    margin-left: 20px;
+    text-decoration: none;
+    margin: 0px 32px;
+    font-size: 30px;
+    color: white;
+}
+.nav-list li a:hover{
+    margin-left: 20px;
+    text-decoration: none;
+    margin: 0px 32px;
+    
+    font-size: 30px;
+    color: gray;
+}
+.nav-list li{
+    font-size: 20px;
+}
+.right-nav
+{
+    width: 40%;
+    text-align: right;
+
+}
+#search{
+    font-family: 'Itim', cursive;
+    border-radius: 8px;
+    padding: 0x 0px;
+    margin: 17px 18px;
+    font-size: 23px;
+    padding: 5px 5px;
+    outline: none;
+}
+.btn{
+    outline: none;
+    color: white;
+    height: 41px;
+    width: 160px;
+    margin: 0px 12px;
+    padding: 0px 9px;
+    font-size: 26px;
+    border-radius: 8px;
+    background-color: #06060608;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/background06.jpg');
+    background-size: cover;
+    background-blend-mode:darken ;
+}
+.box-main{
+    height: 65vh;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
+.text-head{
+    margin-top: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 55px;
+    text-align: center;
+    font-size: 2.6rem;
+}
+.text-content{
+    font-family: 'Raleway', sans-serif;
+   
+    text-align: left;
+    font-size: 1.3rem;
+    margin: 5px;
+    padding: 10px 67px;
+}
+.buttons{
+    margin: 10px;
+    text-align: center;
+}
+.secondHalf img{
+    border-radius: 50%;
+    height: 214;
+    width: 252px;
+    height: 240px;
+
+}
+.firstSection{
+    height: 100vh;
+}
+.btn-main-box{
+    background:transparent;
+    font-family: 'Itim', cursive;
+    height: 46px;
+    width: inherit;
+    margin: 0px 13px;
+    padding: 0px 9px;
+    font-size: 26px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 17px;
+    margin-top: 25px;
+    color: yellowgreen;
+
+}
+
+
+.firstHalf{
+    margin-top: 123px;
+    
+}
+.secondHalf{
+    margin-top: 123px;
+}
+
+.sectRight{
+    margin-top: 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.imgFluid{
+    border: 2px solid black;
+    margin: auto;
+    float: right;
+    height: 250px;
+    width: 270px;
+    border-radius: 10px;
+}
+.left-box{
+
+ width: 60%;
+}
+.thumbnail{
+   margin-top: 60px;
+    width: 30%;
+}
+.sectionTag{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.hr-class{
+    margin-left: 70px;
+    width:80%;
+}
+.sectLeft{
+    margin-top: 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imgFluidLeft{
+    border: 2px solid black;
+    margin-top: 46px;
+    margin-left: 85px;
+    height: 250px;
+    width: 270px;
+    border-radius: 10px;
+}
+.Right-box{
+    width: 60%;
+}
+.hr-class-left{
+    margin-left: 70px;
+    width: 84%;
+}
+
+.contact{
+    padding-top: 1px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    background-color: #efeee8bf;
+}
+.text-center{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 45px;
+}
+.form-class{
+    border-radius: 11px;
+    width: 61%;
+    padding: 6px 13px;
+    margin: 10px auto;
+    display: block;
+    font-size: 24px;
+    outline: none;
+}
+.form-button{
+    outline: none;
+    color: white;
+    height: 41px;
+    width: 160px;
+    margin: 0px 12px;
+    padding: 0px 9px;
+    font-size: 26px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    background-color: #444344;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+.footer-class{
+    height: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color:#424245;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.left{
+display: inline;
+}
+.right{
+    display: inline;
+    margin-left: 40px;
+}
